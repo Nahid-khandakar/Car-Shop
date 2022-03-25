@@ -1,5 +1,5 @@
 .carsCard{
-    width: 350px;
+    width: 330px;
     height: auto;
 
     border: 1px solid #dc3545 ;
@@ -11,7 +11,10 @@
 }
 
 .carsCard img{
-    padding: 10px;
+    width: 315px;
+    height: 200px;
+    padding: 5px;
+    margin: 7px;
     border-radius: 15px;
 }
 
@@ -21,5 +24,15 @@
 
 .carCard-info h4{
     color: #dc3545;
+}
+
+.carsCard-btn{
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 8px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #dc3545;
 }
 
