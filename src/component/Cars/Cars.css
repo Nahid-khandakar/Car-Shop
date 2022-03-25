@@ -1,4 +1,5 @@
 .carsCard{
+    font-family: 'Lato';
     width: 330px;
     height: auto;
 
@@ -22,17 +23,26 @@
     margin-left: 15px;
 }
 
-.carCard-info h4{
+.carCard-info h3{
+    margin-top: 5px;
     color: #dc3545;
+    font-weight: 800;
 }
 
 .carsCard-btn{
-    width: 50%;
-    padding: 5px;
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
     margin-bottom: 8px;
     color: white;
     border: 1px solid white;
     border-radius: 8px;
     background-color: #dc3545;
+    font-size: 20px;
+
+}
+
+.cars-icon{
+    font-size: 25px;
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cars.css'
+import { FiShoppingCart } from 'react-icons/fi';
 
 const Cars = (props) => {
     const { carName, price, carModel, image } = props.car
@@ -12,7 +13,12 @@ const Cars = (props) => {
                 <h3>{carName}</h3>
                 <h6>Car Model : {carModel}</h6>
                 <h4>{price}</h4>
-                <button className='carsCard-btn'>Add to cart</button>
+
+                {/* react icon use here */}
+                <button className='carsCard-btn'>
+                    <span className='cars-icon'>< FiShoppingCart /></span> Add to cart
+
+                </button>
             </div>
 
 
