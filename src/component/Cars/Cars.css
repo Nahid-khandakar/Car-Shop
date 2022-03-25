@@ -1,0 +1,25 @@
+.carsCard{
+    width: 350px;
+    height: auto;
+
+    border: 1px solid #dc3545 ;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    margin: 20px;
+
+}
+
+.carsCard img{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.carCard-info{
+    margin-left: 15px;
+}
+
+.carCard-info h4{
+    color: #dc3545;
+}
+

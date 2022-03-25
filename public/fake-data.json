@@ -1,107 +1,107 @@
 [
     {
         "id": 1,
-        "car-name": "Mercedes-Benz",
+        "carName": "Mercedes-Benz",
         "price": "$782.50",
-        "car-model": "GL-Class",
+        "carModel": "GL-Class",
         "image": "https://c4.wallpaperflare.com/wallpaper/281/548/978/mercedes-benz-amg-gt-car-wallpaper-preview.jpg"
     },
     {
         "id": 2,
-        "car-name": "Volkswagen",
+        "carName": "Volkswagen",
         "price": "$485.47",
-        "car-model": "Eurovan",
+        "carModel": "Eurovan",
         "image": "https://c4.wallpaperflare.com/wallpaper/881/188/58/two-horses-on-grass-field-near-trees-forest-view-forest-view-wallpaper-preview.jpg"
     },
     {
         "id": 3,
-        "car-name": "Chevrolet",
+        "carName": "Chevrolet",
         "price": "$802.74",
-        "car-model": "Avalanche 1500",
+        "carModel": "Avalanche 1500",
         "image": "https://c4.wallpaperflare.com/wallpaper/295/80/865/chevrolet-chevrolet-corvette-c8-car-chevrolet-corvette-orange-car-hd-wallpaper-preview.jpg"
     },
     {
         "id": 4,
-        "car-name": "Jaguar",
+        "carName": "Jaguar",
         "price": "$538.23",
-        "car-model": "XJ Series",
+        "carModel": "XJ Series",
         "image": "https://c4.wallpaperflare.com/wallpaper/1024/375/671/car-jaguar-car-jaguar-f-type-coupe-red-cars-wallpaper-preview.jpg"
     },
     {
         "id": 5,
-        "car-name": "Bugatti",
+        "carName": "Bugatti",
         "price": "$789.66",
-        "car-model": "Veyron",
+        "carModel": "Veyron",
         "image": "https://c4.wallpaperflare.com/wallpaper/628/480/45/bugatti-bugatti-divo-car-red-car-wallpaper-preview.jpg"
     },
     {
         "id": 6,
-        "car-name": "Cadillac",
+        "carName": "Cadillac",
         "price": "$808.91",
-        "car-model": "Escalade ESV",
+        "carModel": "Escalade ESV",
         "image": "https://c4.wallpaperflare.com/wallpaper/593/176/895/car-cadillac-cadillac-cts-v-wallpaper-preview.jpg"
     },
     {
         "id": 7,
-        "car-name": "Land Rover",
+        "carName": "Land Rover",
         "price": "$805.91",
-        "car-model": "Discovery",
+        "carModel": "Discovery",
         "image": "https://c4.wallpaperflare.com/wallpaper/667/26/333/land-rover-range-rover-velar-range-rover-velar-suv-hd-wallpaper-preview.jpg"
     },
     {
         "id": 8,
-        "car-name": "Ford",
+        "carName": "Ford",
         "price": "$891.61",
-        "car-model": "E-Series",
+        "carModel": "E-Series",
         "image": "https://c4.wallpaperflare.com/wallpaper/744/905/203/ford-shelby-mustang-4k-wallpaper-preview.jpg"
     },
     {
         "id": 9,
-        "car-name": "Nissan",
+        "carName": "Nissan",
         "price": "$406.72",
-        "car-model": "Quest",
+        "carModel": "Quest",
         "image": "https://c4.wallpaperflare.com/wallpaper/225/868/3/gtr-nissan-red-car-wallpaper-preview.jpg"
     },
     {
         "id": 10,
-        "car-name": "Toyota",
+        "carName": "Toyota",
         "price": "$894.97",
-        "car-model": "Venza",
+        "carModel": "Venza",
         "image": "https://c4.wallpaperflare.com/wallpaper/604/242/361/toyota-supra-2020-gr-above-a90-hd-wallpaper-preview.jpg"
     },
     {
         "id": 11,
-        "car-name": "Mitsubishi",
+        "carName": "Mitsubishi",
         "price": "$518.97",
-        "car-model": "Chariot",
+        "carModel": "Chariot",
         "image": "https://c4.wallpaperflare.com/wallpaper/2/626/574/car-rims-mitsubishi-lancer-evo-x-wallpaper-preview.jpg"
     },
     {
         "id": 12,
-        "car-name": "BMW",
+        "carName": "BMW",
         "price": "$585.50",
-        "car-model": "325",
+        "carModel": "325",
         "image": "https://c4.wallpaperflare.com/wallpaper/355/897/73/bmw-m4-coupe-wallpaper-preview.jpg"
     },
     {
         "id": 13,
-        "car-name": "Honda",
+        "carName": "Honda",
         "price": "$314.41",
-        "car-model": "type r",
+        "carModel": "type r",
         "image": "https://c4.wallpaperflare.com/wallpaper/915/463/644/honda-type-r-honda-civic-type-r-car-wallpaper-preview.jpg"
     },
     {
         "id": 14,
-        "car-name": "Audi",
+        "carName": "Audi",
         "price": "$754.13",
-        "car-model": "S4",
+        "carModel": "S4",
         "image": "https://c4.wallpaperflare.com/wallpaper/777/369/220/audi-s5-audi-car-blue-cars-wallpaper-preview.jpg"
     },
     {
         "id": 15,
-        "car-name": "Tesla",
+        "carName": "Tesla",
         "price": "$766.17",
-        "car-model": "Model 3",
+        "carModel": "Model 3",
         "image": "https://c4.wallpaperflare.com/wallpaper/581/241/190/tesla-model-x-car-electric-car-tesla-motors-wallpaper-preview.jpg"
     }
 ]
