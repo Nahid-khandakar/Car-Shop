@@ -1,15 +1,14 @@
-.cart-style{
+.randomCart-style{
     display: flex;
     gap: 10px;
     align-items: center;
     margin: 15px;
 }
 
-.cart-style img{
+.randomCart-style img{
     width: 100px;
     height: 70px;
-    border: 1px solid #dc3545;
+
     padding: 8px;
     border-radius: 5px;
-
 }

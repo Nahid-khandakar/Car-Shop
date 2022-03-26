@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cars from '../../Cars/Cars';
 import Cart from '../../Cart/Cart';
+import RandomCart from '../../RandomCart/RandomCart';
 
 import './MainShip.css'
 
@@ -34,14 +35,13 @@ const MainShop = () => {
         setCart([])
     }
 
-    const [rendom, setRendom] = useState([])
+    const [random, setRandom] = useState([])
 
-    console.log(rendom)
+    const randomCart = () => {
 
-    const rendomCart = () => {
-        const rendomCart = [...cart]
-        const newRendom = Math.floor(Math.random() * rendomCart.length);
-        setRendom(newRendom)
+        const randomCart = [...cart]
+        const newRandom = randomCart[Math.floor(Math.random() * randomCart.length)]
+        setRandom(newRandom)
     }
 
     return (
@@ -68,7 +68,12 @@ const MainShop = () => {
                 }
                 <button onClick={removeAllCart} >Remove All</button>
                 <br />
-                <button onClick={rendomCart}>Rendom one</button>
+                <RandomCart
+                    random={random}
+                    randomCart={randomCart}
+                >
+                </RandomCart>
+
 
             </div>
         </div>
