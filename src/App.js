@@ -1,5 +1,6 @@
 import './App.css';
-import MainShop from './component/Navbar/MainShop/MainShop';
+import MainShop from './component/MainShop/MainShop';
+
 import Navbar from './component/Navbar/Navbar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <MainShop></MainShop>
+
     </div>
   );
 }

@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Cars from '../../Cars/Cars';
-import Cart from '../../Cart/Cart';
-import RandomCart from '../../RandomCart/RandomCart';
-
-import './MainShip.css'
+import Cars from '../Cars/Cars';
+import Cart from '../Cart/Cart';
+import RandomCart from '../RandomCart/RandomCart';
+import './MainShop.css'
 
 const MainShop = () => {
 
@@ -68,6 +67,8 @@ const MainShop = () => {
                 }
                 <button onClick={removeAllCart} >Remove All</button>
                 <br />
+
+
                 <RandomCart
                     random={random}
                     randomCart={randomCart}
