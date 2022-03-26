@@ -48,7 +48,7 @@ const MainShop = () => {
 
 
     return (
-        <div className="container-fluid">
+        <div className="container-fluid main-container">
 
             <div className="row">
 
@@ -60,6 +60,7 @@ const MainShop = () => {
 
 
                         <h3 className='text-danger text-center mt-3'>Selected Cart List</h3>
+                        <hr className='text-danger p-1' />
                         {
                             cart.map(carCart => <Cart
                                 key={carCart.id}
@@ -67,9 +68,9 @@ const MainShop = () => {
                             ></Cart>)
                         }
 
-                        <div className='d-flex justify-content-evenly'>
+                        <div className='d-flex justify-content-evenly mt-3'>
 
-                            <button onClick={randomCart} type="button" className="btn btn-outline-primary cart-btn">Choose any 1</button>
+                            <button onClick={randomCart} type="button" className="btn btn-outline-light cart-btn">Choose Any 1</button>
 
                             <button onClick={removeAllCart} type="button" className="btn btn-outline-warning cart-btn">Remove All</button>
 

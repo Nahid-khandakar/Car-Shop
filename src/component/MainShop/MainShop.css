@@ -1,21 +1,6 @@
-/* .mainShop-container{
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    
+.main-container{
+    font-family: 'Lato';
 }
-
-.cars-container{
-    display: grid;
-    grid-template-columns: repeat(3 ,1fr);
-    border-right: 2px dashed #dc3545;
-    height: auto;
-} 
-
-.cart-container{
-color:#dc3545;
-background-color: #3A3B3C;
-}
-*/
 .cart-container h3{
     text-align: center;
     padding: 5px;

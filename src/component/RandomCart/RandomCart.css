@@ -1,11 +1,8 @@
 .randomCart-style{
-    gap: 10px;
-    align-items: center;
-    margin: 30px;
+   align-items: center; 
 }
 
 .randomCart-style img{
-    width: 200px;
-    height: 120px;
-   
+    width: 80%;
+    height: auto; 
 }
