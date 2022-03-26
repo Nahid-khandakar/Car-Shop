@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cars from '../../Cars/Cars';
 import Cart from '../../Cart/Cart';
+
 import './MainShip.css'
 
 const MainShop = () => {
@@ -27,6 +28,12 @@ const MainShop = () => {
 
     }
 
+    //remove all cart
+
+    const removeAllCart = () => {
+        setCart([])
+    }
+
     return (
 
         <div className='mainShop-container'>
@@ -49,6 +56,9 @@ const MainShop = () => {
                         carCart={carCart}
                     ></Cart>)
                 }
+                <button onClick={removeAllCart} >Remove All</button>
+                <br />
+                <button>Rendom one</button>
 
             </div>
         </div>
