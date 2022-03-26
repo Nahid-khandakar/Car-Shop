@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <MainShop></MainShop>
-      <AnswerText></AnswerText>
+      {/* <AnswerText></AnswerText> */}
 
     </div>
   );

@@ -8,11 +8,15 @@ const MainShop = () => {
 
     //this state use for cars component
     const [cars, setCars] = useState([])
-    //console.log(cars)
+
     //this state use for cart component
     const [cart, setCart] = useState([])
 
-    //this state use for cars component
+    //this state use for random car component
+    const [random, setRandom] = useState([])
+
+
+    //this effect use for cars component
     useEffect(() => {
         fetch('fake-data.json')
             .then(res => res.json())
@@ -29,13 +33,12 @@ const MainShop = () => {
     }
 
     //remove all cart
-
     const removeAllCart = () => {
         setCart([])
     }
 
-    const [random, setRandom] = useState([])
 
+    //random select
     const randomCart = () => {
 
         const randomCart = [...cart]
@@ -43,41 +46,63 @@ const MainShop = () => {
         setRandom(newRandom)
     }
 
+
     return (
+        <div className="container-fluid">
 
-        <div className='mainShop-container'>
+            <div className="row">
 
-            <div className='cars-container'>
-                {
-                    cars.map(car => <Cars
-                        key={car.id}
-                        car={car}
-                        addToCart={addToCart}
-                    ></Cars>)
-                }
-            </div>
+                {/* cars container */}
+                <div className="col-lg-9 col-12 bg-dark">
 
-            <div className='cart-container'>
-                <h3>Cart List</h3>
-                {
-                    cart.map(carCart => <Cart
-                        key={carCart.id}
-                        carCart={carCart}
-                    ></Cart>)
-                }
-                <button onClick={removeAllCart} >Remove All</button>
-                <br />
+                    <div className='cars-container  d-flex flex-wrap justify-content-around'>
+                        {
+                            cars.map(car => <Cars
+                                key={car.id}
+                                car={car}
+                                addToCart={addToCart}
+                            ></Cars>)
+                        }
+                    </div>
+                </div>
+
+                {/* carts container */}
+                <div className="col-lg-3 col-12  bg-dark">
+                    <div className='cart-container'>
 
 
-                <RandomCart
-                    random={random}
-                    randomCart={randomCart}
-                >
-                </RandomCart>
+                        <h3 className='text-danger text-center mt-3'>Selected Cart List</h3>
+                        {
+                            cart.map(carCart => <Cart
+                                key={carCart.id}
+                                carCart={carCart}
+                            ></Cart>)
+                        }
+
+                        <div className='d-flex justify-content-evenly'>
+
+                            <button onClick={randomCart} type="button" className="btn btn-outline-primary cart-btn">Choose any 1</button>
+
+                            <button onClick={removeAllCart} type="button" className="btn btn-outline-warning cart-btn">Remove All</button>
+
+                        </div>
+
+
+                        <RandomCart
+                            random={random}
+                        >
+                        </RandomCart>
+
+                    </div>
+                </div>
+
+
 
 
             </div>
         </div>
+
+
 
     );
 };

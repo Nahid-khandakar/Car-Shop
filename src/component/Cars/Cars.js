@@ -7,22 +7,16 @@ const Cars = (props) => {
 
     return (
 
-        <div className='carsCard'>
-            <img src={image} alt="" />
-
-            <div className='carCard-info'>
-                <h3>{carName}</h3>
-                <h6>Car Model : {carModel}</h6>
-                <h4>{price}</h4>
-
-                {/* react icon use here */}
-                <button onClick={() => props.addToCart(props.car)} className='carsCard-btn'>
-                    <span className='cars-icon'>< FiShoppingCart /></span> Add to cart
-                </button>
+        <div className="card cars-style mt-4 pe-5 mb-5 bg-dark border border-danger carsCard">
+            <img src={image} className='card-img-top carsImage-style ms-3 mt-3' alt="" />
+            <div className="card-body">
+                <h4 className='text-danger'>{carName}</h4>
+                <h6 className='text-light'>Car Model : {carModel}</h6>
+                <h5 className='text-light'>{price}</h5>
+                <button onClick={() => props.addToCart(props.car)} type="button" className="btn btn-outline-danger my-3">
+                    <span className='cars-icon'><FiShoppingCart /></span>
+                    Add to cart</button>
             </div>
-
-
-
         </div>
 
     );

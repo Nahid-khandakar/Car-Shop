@@ -1,48 +1,20 @@
-.carsCard{
+ .carsCard{
     font-family: 'Lato';
-    width: 330px;
-    height: auto;
-
-    border: 1px solid #dc3545 ;
-    box-sizing: border-box;
-    border-radius: 8px;
-
-    margin: 20px;
-
-}
-
-.carsCard img{
-    width: 315px;
-    height: 200px;
-    padding: 5px;
-    margin: 7px;
-    border-radius: 15px;
-}
-
-.carCard-info{
-    margin-left: 15px;
-}
-
-.carCard-info h3{
-    margin-top: 5px;
-    color: #dc3545;
     font-weight: 800;
-}
-
-.carsCard-btn{
-    width: 95%;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 8px;
-    color: white;
-    border: 1px solid white;
-    border-radius: 8px;
-    background-color: #dc3545;
-    font-size: 20px;
 
 }
 
 .cars-icon{
-    font-size: 25px;
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.cars-style{
+    width: 22rem;
+}
+
+.carsImage-style{
+    width: 315px;
+    height: 200px;
 }
 

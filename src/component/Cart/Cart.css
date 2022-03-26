@@ -1,15 +1,12 @@
 .cart-style{
-    display: flex;
-    gap: 10px;
     align-items: center;
-    margin: 15px;
 }
-
 .cart-style img{
-    width: 100px;
-    height: 70px;
+    width: 150px;
+    height: 100px;
     border: 1px solid #dc3545;
     padding: 8px;
     border-radius: 5px;
+    margin: 10px;
 
 }
