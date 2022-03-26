@@ -8,6 +8,8 @@ const MainShop = () => {
     //this state use for cars component
     const [cars, setCars] = useState([])
     //console.log(cars)
+    //this state use for cart component
+    const [cart, setCart] = useState([])
 
     //this state use for cars component
     useEffect(() => {
@@ -16,6 +18,15 @@ const MainShop = () => {
             .then(data => setCars(data))
     }, [])
 
+
+    //click  and data from  cars.js button 
+    const addToCart = (carDetails) => {
+        //console.log(carDetails)
+        const newCart = [...cart, carDetails]
+        setCart(newCart)
+
+    }
+
     return (
 
         <div className='mainShop-container'>
@@ -23,14 +34,22 @@ const MainShop = () => {
             <div className='cars-container'>
                 {
                     cars.map(car => <Cars
-                        car={car}
                         key={car.id}
+                        car={car}
+                        addToCart={addToCart}
                     ></Cars>)
                 }
             </div>
 
             <div className='cart-container'>
-                <Cart></Cart>
+                <h3>Cart List</h3>
+                {
+                    cart.map(carCart => <Cart
+                        key={carCart.id}
+                        carCart={carCart}
+                    ></Cart>)
+                }
+
             </div>
         </div>
 

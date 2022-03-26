@@ -4,6 +4,7 @@ import { FiShoppingCart } from 'react-icons/fi';
 
 const Cars = (props) => {
     const { carName, price, carModel, image } = props.car
+
     return (
 
         <div className='carsCard'>
@@ -15,9 +16,8 @@ const Cars = (props) => {
                 <h4>{price}</h4>
 
                 {/* react icon use here */}
-                <button className='carsCard-btn'>
+                <button onClick={() => props.addToCart(props.car)} className='carsCard-btn'>
                     <span className='cars-icon'>< FiShoppingCart /></span> Add to cart
-
                 </button>
             </div>
 

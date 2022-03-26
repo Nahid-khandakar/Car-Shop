@@ -13,4 +13,10 @@
 
 .cart-container{
 color:#dc3545;
+background-color: #3A3B3C;
+}
+
+.cart-container h3{
+    text-align: center;
+    padding: 5px;
 }
