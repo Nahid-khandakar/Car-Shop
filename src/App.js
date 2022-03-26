@@ -1,4 +1,5 @@
 import './App.css';
+import AnswerText from './component/AnswerText/AnswerText';
 import MainShop from './component/MainShop/MainShop';
 
 import Navbar from './component/Navbar/Navbar';
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <MainShop></MainShop>
+      <AnswerText></AnswerText>
 
     </div>
   );
