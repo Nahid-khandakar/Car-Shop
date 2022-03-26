@@ -52,22 +52,10 @@ const MainShop = () => {
 
             <div className="row">
 
-                {/* cars container */}
-                <div className="col-lg-9 col-12 bg-dark">
 
-                    <div className='cars-container  d-flex flex-wrap justify-content-around'>
-                        {
-                            cars.map(car => <Cars
-                                key={car.id}
-                                car={car}
-                                addToCart={addToCart}
-                            ></Cars>)
-                        }
-                    </div>
-                </div>
 
                 {/* carts container */}
-                <div className="col-lg-3 col-12  bg-dark">
+                <div className="col-lg-3 col-12  bg-dark order-sm-2 ">
                     <div className='cart-container'>
 
 
@@ -93,6 +81,20 @@ const MainShop = () => {
                         >
                         </RandomCart>
 
+                    </div>
+                </div>
+
+                {/* cars container */}
+                <div className="col-lg-9 col-12 bg-dark order-sm-1 ">
+
+                    <div className='cars-container  d-flex flex-wrap justify-content-around'>
+                        {
+                            cars.map(car => <Cars
+                                key={car.id}
+                                car={car}
+                                addToCart={addToCart}
+                            ></Cars>)
+                        }
                     </div>
                 </div>
 

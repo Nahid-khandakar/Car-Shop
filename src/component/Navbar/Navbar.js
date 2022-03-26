@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="container-fluid">
 
 
-                <h3>Car Shop</h3>
+                <h2>Car Shop</h2>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto me-5 mb-2 mb-lg-0 text-light">

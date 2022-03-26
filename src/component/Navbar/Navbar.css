@@ -1,9 +1,12 @@
 .navStyle a{
+    font-family: 'Lato';
     color: white;
-    font-size: 19px;
+    font-size: 20px;
 }
 
-.navStyle h3{
-    color: white;
+.navStyle h2{
+    font-family: 'Lato';
+    font-weight: 700;
     padding: 15px;
+    color :#18191A 
 }
