@@ -34,6 +34,16 @@ const MainShop = () => {
         setCart([])
     }
 
+    const [rendom, setRendom] = useState([])
+
+    console.log(rendom)
+
+    const rendomCart = () => {
+        const rendomCart = [...cart]
+        const newRendom = Math.floor(Math.random() * rendomCart.length);
+        setRendom(newRendom)
+    }
+
     return (
 
         <div className='mainShop-container'>
@@ -58,7 +68,7 @@ const MainShop = () => {
                 }
                 <button onClick={removeAllCart} >Remove All</button>
                 <br />
-                <button>Rendom one</button>
+                <button onClick={rendomCart}>Rendom one</button>
 
             </div>
         </div>
